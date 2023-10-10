@@ -1,3 +1,6 @@
+#project:If statement
+#Author:Emon
+
 mathresult = input(
     'Emon your result is published. Please type your maths result ')
 print('My maths result is ', mathresult)
