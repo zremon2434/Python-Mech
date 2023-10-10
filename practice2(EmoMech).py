@@ -1,3 +1,5 @@
+#Author:Emon
+
 frompc = float(input('Please tell me your physics score last day '))
 
 print('Emon your score is', frompc)
