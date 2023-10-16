@@ -1,3 +1,5 @@
+#Author:Emon
+
 userinput = float(input('Emon tell me how many GF do you have back then? '))
 print('Shitt!! you have', userinput, 'GF only')
 
