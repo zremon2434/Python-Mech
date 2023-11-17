@@ -1,15 +1,19 @@
-#project:If statement
-#Author:Emon
+# Project: If statement
+# Author: Emon
 
-mathresult = input(
-    'Emon your result is published. Please type your maths result ')
+# Get and display the initial math result input
+mathresult = input('Emon your result is published. Please type your maths result ')
 print('My maths result is ', mathresult)
 
-z = float(input('enter your math score again '))
+# Get a new math score input and calculate the remainder when divided by 2
+z = float(input('Enter your math score again '))
 score = z % 2
 
-if (score == 0):
-    print('your score is an even number.')
+# Check if the score is even and print the corresponding message
+if score == 0:
+    print('Your score is an even number.')
 
-if (score != 0):
-    print('your score is an odd number.')
+# Check if the score is odd and print the corresponding message
+if score != 0:
+    print('Your score is an odd number.')
+
